@@ -81,8 +81,11 @@ Function RegisterDyes()
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200014,"dse-dyemaster.esp"),0xFF804bb9)
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200015,"dse-dyemaster.esp"),0xFF3ab09e)
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200016,"dse-dyemaster.esp"),0xFFc860c8)
-	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200020,"dse-dyemaster.esp"),0xFF9c9c9c)
-	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200021,"dse-dyemaster.esp"),0xFF666666)
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200020,"dse-dyemaster.esp"),0xFF9c9c9c) ;; dusty grey
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200021,"dse-dyemaster.esp"),0xFF666666) ;; dove grey
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200022,"dse-dyemaster.esp"),0xFF59340A) ;; cioccolato
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200023,"dse-dyemaster.esp"),0xFF99774D) ;; leather
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200024,"dse-dyemaster.esp"),0xFF7E6444) ;; roman coffee
 
 	;; gold label series
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x200017,"dse-dyemaster.esp"),0xFF5a9ab4)
