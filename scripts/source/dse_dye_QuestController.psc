@@ -69,8 +69,8 @@ Function RegisterDyes()
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000A,"dse-dyemaster.esp"),0xFF80FF00)
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000B,"dse-dyemaster.esp"),0xFF0080FF)
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000C,"dse-dyemaster.esp"),0xFFFF0080)
-	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000D,"dse-dyemaster.esp"),0xFFEEEEEE)
-	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000E,"dse-dyemaster.esp"),0xFF111111)
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000D,"dse-dyemaster.esp"),0xFFEEEEEE) ;; white
+	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000E,"dse-dyemaster.esp"),0xFF111111) ;; black
 
 	;; subdued series
 	NiOverride.RegisterFormDyeColor(Game.GetFormFromFile(0x20000F,"dse-dyemaster.esp"),0xFFc73030)
